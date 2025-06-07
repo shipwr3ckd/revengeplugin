@@ -16,4 +16,6 @@ Inspired from:[BetterBios](https://vd-plugins.github.io/proxy/vendicated.github.
 
 # [Staff Tags Revived](https://shipwr3ckd.github.io/revengeplugin/staff-tags-Revived/)
 
+Shows extra tags for staff members.
+
 Forked from:[Staff Tags](https://fierdetta.github.io/staff-tags/)
