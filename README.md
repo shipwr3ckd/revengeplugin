@@ -1,9 +1,19 @@
-# Vendetta Plugins Template
-This repo contains a template for creating [Vendetta](https://github.com/vendetta-mod/Vendetta) plugins.
+# シグマ siguma's Revenge/Bunny/Wherever this works Plugins
 
-# How to install?
-Paste a plugin URL into the Plugins page of Vendetta, following a basic format of:
+>**If it works, don't touch it.**
 
-https://shipwr3ckd.github.io/revengeplugin/`PLUGIN_NAME`
+# [HideBlockedAndIgnoredMessages](https://shipwr3ckd.github.io/revengeplugin/HideBlockedAndIgnoredMessages/)
 
-Thanks to nexpid for half the shit I've stolen from him.
+A plugin that removes the `X blocked message/s` prompt from chat.
+
+Forked from: [HideBlockedMessages](https://zykrah.github.io/vendetta-plugins/HideBlockedMessages)
+
+#[CopyBios](https://shipwr3ckd.github.io/revengeplugin/CopyBios/)
+
+Copy bio texts
+
+Inspired from:[BetterBios](https://vd-plugins.github.io/proxy/vendicated.github.io/its-called-vendetta-cause-its-owned-by-ven-plugins/ClickableBioLinks/)
+
+#[Staff Tags Revived](https://shipwr3ckd.github.io/revengeplugin/staff-tags-Revived/)
+
+Forked from:[Staff Tags](https://fierdetta.github.io/staff-tags/)
