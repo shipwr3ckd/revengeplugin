@@ -1,4 +1,4 @@
-# シグマ siguma's Revenge/Bunny/Kettu Plugins
+# シグマ siguma's Revenge/Bunny/Kettu Plugin fixes
 
 >**If it works, don't touch it.**
 
