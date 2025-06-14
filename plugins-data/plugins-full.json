@@ -2127,7 +2127,7 @@
   },
   {
     "name": "Hidden Channels",
-    "description": "Reworked from cloudburst's original script.",
+    "description": "Reworked from cloudburst's original script.\n\n⚠️ Causes a crash when opening DMs ⚠️",
     "authors": [
       {
         "name": "cloudburst",
@@ -2147,7 +2147,10 @@
       "icon": "ic_lock",
       "original": "lioncat6.github.io/revenge-plugins/hidden-channels/"
     },
-    "hash": "2ee8348ccbd6c1de39ed01fd70457d2813d88fbdeb5c3fad0cef3d9483e1b1de"
+    "hash": "2ee8348ccbd6c1de39ed01fd70457d2813d88fbdeb5c3fad0cef3d9483e1b1de",
+    "bunny": {
+      "broken": true
+    }
   },
   {
     "name": "HideBlockedAndIgnoredMessages",
@@ -2184,5 +2187,25 @@
       "original": "shipwr3ckd.github.io/revengeplugin/CopyBios/"
     },
     "hash": "eda10f8c1bc87aada1f1b08d70a4936c92abafb282bff636d602e1f505c291f5"
+  },
+  {
+    "name": "Plugins List",
+    "description": "A modified version of Nexpid's plugin browser that uses https://plugins-list.pages.dev as source.",
+    "authors": [
+      {
+        "name": "nexpid",
+        "id": "853550207039832084"
+      },
+      {
+        "name": "Purple_Ξye™",
+        "id": "646535537334812682"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ChannelListMagnifyingGlassIcon",
+      "original": "purple-eyez.github.io/Plugins-List_Plugin/plugins-list/"
+    },
+    "hash": "1d3a447514f1755ee060a9512f538dc9635249e98fa7e392309deb890f9c5680"
   }
 ]
