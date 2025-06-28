@@ -418,7 +418,10 @@
       "icon": "voice_bar_mute_off",
       "original": "dziurwa14.github.io/vendetta-plugins/customVoiceMessages/"
     },
-    "hash": "4f0507dad00b33cd6e217aeddbf5724d2a6aa8bc9bd249b0b75b82ef5d09490f"
+    "hash": "4f0507dad00b33cd6e217aeddbf5724d2a6aa8bc9bd249b0b75b82ef5d09490f",
+    "bunny": {
+      "broken": true
+    }
   },
   {
     "name": "No Embed Copy",
@@ -946,7 +949,10 @@
       "icon": "icon-qs-files",
       "original": "maisymoe.github.io/strife/AnonymousFileNames/"
     },
-    "hash": "bfbb4742308da3de11e416d889a432eda62fdbefe39629ddc5720f35fdff6bff"
+    "hash": "bfbb4742308da3de11e416d889a432eda62fdbefe39629ddc5720f35fdff6bff",
+    "bunny": {
+      "broken": true
+    }
   },
   {
     "name": "Experiments",
@@ -1205,7 +1211,7 @@
       "icon": "img_nitro_emojis",
       "original": "rico040.github.io/bunny-plugins/freemoji/"
     },
-    "hash": "24eb1dfb0cbac6874570ac7d5080c714156e885be520a8579730a5a019371b39"
+    "hash": "6a45c3c22d7a4910c4513ad23eff199bb6a7bd09ec78ce2133f45ad88a588bc0"
   },
   {
     "name": "Quick Delete",
@@ -2127,7 +2133,7 @@
   },
   {
     "name": "Hidden Channels",
-    "description": "Reworked from cloudburst's original script.\n\n⚠️ Causes a crash when opening DMs ⚠️",
+    "description": "Reworked from cloudburst's original script.",
     "authors": [
       {
         "name": "cloudburst",
@@ -2147,10 +2153,7 @@
       "icon": "ic_lock",
       "original": "lioncat6.github.io/revenge-plugins/hidden-channels/"
     },
-    "hash": "2ee8348ccbd6c1de39ed01fd70457d2813d88fbdeb5c3fad0cef3d9483e1b1de",
-    "bunny": {
-      "broken": true
-    }
+    "hash": "de5cba96b9ed06f5434754e9e99cda2eeee1325ea69a74de2361e0a9a3c3545e"
   },
   {
     "name": "HideBlockedAndIgnoredMessages",
@@ -2207,5 +2210,25 @@
       "original": "purple-eyez.github.io/Plugins-List_Plugin/plugins-list/"
     },
     "hash": "1d3a447514f1755ee060a9512f538dc9635249e98fa7e392309deb890f9c5680"
+  },
+  {
+    "name": "KonoChan-Randomizer",
+    "description": "picks a random picture from KonoChan.",
+    "authors": [
+      {
+        "name": "btmc727",
+        "id": "554071670143451176"
+      },
+      {
+        "name": "Rico040",
+        "id": "619474349845643275"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_badge_staff",
+      "original": "otkusteyler.github.io/KonoChan-Randomizer-/"
+    },
+    "hash": "2f64c7232d655d4a9a9362ae05600f34daf5cc1df89d2734c9525daf638d1ffb"
   }
 ]
