@@ -1,0 +1,14 @@
+{
+  "name": "edit text",
+  "description": "edit s text",
+  "authors": [
+    {
+      "name": "sev",
+      "id": "737597276339437578"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "ic_profile_24px"
+  }
+}
