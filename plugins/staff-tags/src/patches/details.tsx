@@ -1,10 +1,9 @@
 import { findByProps, findByStoreName, findByTypeNameAll } from "@vendetta/metro";
 import { after } from "@vendetta/patcher";
 import { findInReactTree } from "@vendetta/utils";
-import getTag, { BUILT_IN_TAGS } from "../lib/getTag";
+import getTag from "../lib/getTag";
 
 const TagModule = findByProps("getBotLabel");
-const getBotLabel = TagModule?.getBotLabel;
 const GuildStore = findByStoreName("GuildStore");
 
 const rowPatch = ([{ guildId, user }], res) => {
@@ -19,10 +18,7 @@ const rowPatch = ([{ guildId, user }], res) => {
     );
 
     const existingTag = findInReactTree(nameContainer, (c) => c?.type?.Types);
-    if (existingTag) {
-        const labelText = getBotLabel?.(existingTag.props.type);
-        if (BUILT_IN_TAGS.includes(labelText)) return;
-    }
+    if (existingTag && existingTag.props?.type !== 0) return;
 
     const guild = GuildStore.getGuild(guildId);
     const tag = getTag(guild, undefined, user);
