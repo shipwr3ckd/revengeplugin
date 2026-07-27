@@ -9,7 +9,11 @@
          {
             "name": "シグマ siguma",
             "id": "737597276339437578"
-        }       
+        },
+        {
+            "name": "hieuxyz",
+            "id": "994819569795485747"
+        }
     ],
     "main": "src/index.ts",
     "vendetta": {

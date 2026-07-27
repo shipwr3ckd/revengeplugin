@@ -1,5 +1,5 @@
 import { findByProps, findByStoreName } from "@vendetta/metro";
-import { chroma, constants, i18n } from "@vendetta/metro/common";
+import { chroma, constants } from "@vendetta/metro/common";
 import { storage } from "@vendetta/plugin";
 import { rawColors } from "@vendetta/ui";
 
@@ -8,15 +8,6 @@ const { Permissions } = constants
 const { computePermissions } = findByProps("computePermissions", "canEveryoneRole")
 
 const GuildMemberStore = findByStoreName("GuildMemberStore")
-
-export const BUILT_IN_TAGS = [
-    i18n.Messages.AI_TAG,
-    i18n.Messages.BOT_TAG_BOT,
-    i18n.Messages.BOT_TAG_SERVER,
-    i18n.Messages.SYSTEM_DM_TAG_SYSTEM,
-    i18n.Messages.GUILD_AUTOMOD_USER_BADGE_TEXT,
-    i18n.Messages.REMIXING_TAG
-]
 
 interface Tag {
     text: string
